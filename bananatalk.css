@@ -1,0 +1,57 @@
+:root {
+  --primary-color: khaki;
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+
+.header {
+  text-align: center;
+  font-size: x-large;
+  padding: 1rem;
+  font-weight: bold;
+  background-color: var(--primary-color);
+
+}
+
+.hero {
+  width: 80%;
+  height: 10vh;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+
+}
+
+.translate {
+  background-color: var(--primary-color);
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-size: large;
+  margin-left: 1rem;
+}
+
+.output {
+  border: 1px solid;
+  height: 10vh;
+  width: 80%;
+  margin: 1rem;
+  padding: 1rem;
+
+  font-size: large;
+
+}
+
+
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+}
