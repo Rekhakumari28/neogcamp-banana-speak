@@ -1,57 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Edu+SA+Beginner:wght@500;700&family=Vollkorn:ital,wght@1,400;1,600&display=swap');
 :root {
   --primary-color: khaki;
+  --back:#0f172a;
+  --width-break:600px;
 
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-family: 'Amatic SC', cursive;
   margin: 0px;
+  color: #333333;
 }
 
-.header {
+nav{
+  background-color: var(--primary-color);
   text-align: center;
-  font-size: x-large;
-  padding: 1rem;
-  font-weight: bold;
-  background-color: var(--primary-color);
-
+  
 }
-
-.hero {
-  width: 80%;
-  height: 10vh;
+main{
+  
+  margin: auto;
+  padding: .5rem;
+  max-width:var(--width-break);
+}
+textarea{
+  box-sizing: border-box;
   display: block;
-  margin: 1rem;
-  padding: 1rem;
-
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-family: inherit;
 }
-
-.translate {
+button{
   background-color: var(--primary-color);
+  border: none;
   margin: 1rem 0rem;
   padding: 1rem 2rem;
-  font-size: large;
-  margin-left: 1rem;
+  font-family: inherit;
+  font-size: 1.5rem;
 }
 
-.output {
-  border: 1px solid;
-  height: 10vh;
-  width: 80%;
-  margin: 1rem;
+#output {
+  border: 1px solid black;
+  min-height: 10vh;
+  width: 100%;
+  margin-bottom: 1rem;
   padding: 1rem;
-
-  font-size: large;
-
+  font-family: inherit;
+  display: block;
+  box-sizing: border-box;
 }
 
 
-
-.footer {
-  text-align: center;
-  padding: 1rem;
+footer{
   position: fixed;
   bottom: 0;
   width: 100%;
+  padding: 1rem;
   background-color: var(--primary-color);
+  text-align: center;
+}
+footer p{
+  max-width: var(--width-break);
+  margin: auto;
+  text-align: center;
 }
