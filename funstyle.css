@@ -19,7 +19,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .inputtext {
@@ -63,8 +63,8 @@ button:hover {
 }
 
 .informantion {
-    width: 35vw;
-    text-align: justify;
-    font-size: 1.5rem;
+    width: 80%;
+    text-align:justify;
+    font-size: 1.2rem;
 
 }
